@@ -21,13 +21,15 @@ For comparison, several baseline classifiers were trained in a separate notebook
 - Stochastic Gradient Descent Classifier (`SGDClassifier`)
 
 ## 🛠️ Project Structure
+```plaintext
 question-classification/
-│── labeled_data.csv # Custom labeled dataset
-│── classify_question_herbert.ipynb # Notebook using HerBERT transformer model
-│── classify_question_other_model.ipynb # Classical ML models
-│── model_classification/ # Saved fine-tuned HerBERT model weights
-│── question_labeler.py # 
-│── README.md # Project documentation
+├── labeled_data.csv               # Custom labeled dataset
+├── classify_question_herbert.ipynb # Notebook using HerBERT transformer model
+├── classify_question_other_model.ipynb # Classical ML models
+├── model_classification/          # Saved fine-tuned HerBERT model weights
+├── question_labeler.py
+└── README.md                      # Project documentation
+```
 
 ## 🎯 Goals
 - Build a robust classifier to detect whether a question needs context.  
